@@ -2,4 +2,9 @@
 .icon-mail:before { content: '\e800'; } /* '' */
 .icon-torso:before { content: '\e801'; } /* '' */
 .icon-lock-1:before { content: '\e802'; } /* '' */
+.icon-cog:before { content: '\e803'; } /* '' */
+.icon-basket:before { content: '\e804'; } /* '' */
+.icon-logout:before { content: '\e805'; } /* '' */
+.icon-money:before { content: '\e806'; } /* '' */
 .icon-copyright:before { content: '\f1f9'; } /* '' */
+.icon-chart-pie:before { content: '\f200'; } /* '' */
