@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Budget - Add Expense</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href=expense.css type=text/css />
+    <link rel="stylesheet" href=css/fontello.css type=text/css />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Personal Budget</h1>
+        <h4> Your Finance Manager </h4>
+    </header>
+    <main>
+        <article>
+            <h2 class="logo">Add Expense</h2>
+            <form action="" methode="">
+                <p>
+                    <label class="amount">Amount <input type="text" placeholder="123"></label>
+                </p>
+                <p>
+                    <label class="date" for="start">Date </label>
+                    <input type="date" id="start" name="trip-start" value="2022-07-01" min="2000-01-01" ; </p>
+                <p>
+                    <label class="payment">Payment Method </label>
+                    <input type="radio" name="payments" checked><span class="cash">cash</span>
+                    <input type="radio" name="payments"><span class="debid">debid card</span>
+                    <input type="radio" name="payments"><span clas="credit">credit card</span>
+                    </label>
+                </p>
+
+                <p>
+                    <label class="category" for="category">Category </label>
+                    <select id="expense">
+                        <option>food</option>
+                        <option>flat</option>
+                        <option>transport</option>
+                        <option>telecommunication</option>
+                        <option>healthcare</option>
+                        <option>clothes</option>
+                        <option>hygiene</option>
+                        <option>kids</option>
+                        <option>entertainment</option>
+                        <option>trip</option>
+                        <option>training</option>
+                        <option>books</option>
+                        <option>savings</option>
+                        <option>debt repayment </option>
+                        <option>donation</option>
+                        <option>stock exchange</option>
+                    </select>
+                </p>
+                <p>
+                    <label class="comment">Comment <input type="text" placeholder="(optional)"></label>
+                </p>
+                <input type="submit" value="Add">
+                <input type="submit" value="Cancel">
+            </form>
+        </article>
+    </main>
+    <footer>
+        <i class="icon-copyright"></i>
+        Sandra Skibiszewska
+    </footer>
+</body>
+
+</html>
