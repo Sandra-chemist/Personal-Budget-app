@@ -9,6 +9,7 @@
     <link rel="stylesheet" href=css/fontello.css type=text/css />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,22 +22,22 @@
             <h2 class="logo">Add Expense</h2>
             <form action="" methode="">
                 <p>
-                    <label>Amount <input type="text" placeholder="123"></label>
+                    <label class="amount">Amount <input type="text" placeholder="123"></label>
                 </p>
                 <p>
-                    <label for="start">Date </label>
+                    <label class="date" for="start">Date </label>
                     <input type="date" id="start" name="trip-start" value="2022-07-01" min="2000-01-01" ; </p>
                 <p>
-                <fieldset>
-                    <legend>Payment Methods</legend>
-                    <div><label><input type="radio" value="1" name="cash" checked>cash</label></div>
-                    <div><label><input type="radio" value="1" name="cash">debid card</label></div>
-                    <div><label><input type="radio" value="1" name="cash">credit cash</label></div>
-                </fieldset>
+                    <label class="payment">Payment Method </label>
+                    <input type="radio" name="payments" checked><span class="cash">cash</span>
+                    <input type="radio" name="payments"><span class="debid">debid card</span>
+                    <input type="radio" name="payments"><span clas="credit">credit card</span>
+                    </label>
                 </p>
+
                 <p>
-                    <label for="category">Category </label>
-                    <select id="payment">
+                    <label class="category" for="category">Category </label>
+                    <select id="expense">
                         <option>food</option>
                         <option>flat</option>
                         <option>transport</option>
@@ -56,7 +57,7 @@
                     </select>
                 </p>
                 <p>
-                    <label>Comment <input type="text" placeholder="..."></label>
+                    <label class="comment">Comment <input type="text" placeholder="(optional)"></label>
                 </p>
                 <input type="submit" value="Add">
                 <input type="submit" value="Cancel">
