@@ -19,13 +19,13 @@ h4{
     font-family: 'Libre Bodoni', serif;
 }
 article{
-  height: 600px;
-  border-width: 3px;
-  border-color: #b180ce;
-  border-style: solid;
-  /* Background pattern from subtlepatterns.com */
-  background-image: url("img/whitediamond.png");
-  padding: 5px;
+    height: 1810px;
+    border-width: 3px;
+    border-color: #b180ce;
+    border-style: solid;
+     /* Background pattern from subtlepatterns.com */
+    background-image: url("img/whitediamond.png");
+    padding: 5px;
 }
 h2.logo{
     font-size: 40px;
@@ -35,12 +35,11 @@ h2.logo{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 form{
     background-color: white;
     text-align: center;
     width: 500px;
-    height: 430px;
+    height: 180px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -48,20 +47,8 @@ form{
     -moz-box-shadow: 3px 3px 30px 5px #be95c4;
     box-shadow: 3px 3px 30px 5px #be95c4;
 }
-input[type=text]{
-    width: 300px;
-    height: 25px;
-    background-color: #e0b1cb;
-    color: #9944c9;
-    border: 2px solid #be95c4;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    outline: none;
-    font-family: 'Darker Grotesque', sans-serif;
-}
 input[type=submit]{
-    width: 140px;
+    width: 250px;
     background-color: #9f86c0;
     font-size: 25px;
     color: white;
@@ -75,35 +62,12 @@ input[type=submit]{
     outline: none;
     font-family: 'Darker Grotesque', sans-serif;
 }
-input[type=date]{
-    height: 25px;
-    width: 150px;
-    font-size: 20px;
-    border: 2px solid #be95c4;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #e0b1cb;
-    color: #563e5a;
-    outline: none;
-    font-family: 'Darker Grotesque', sans-serif;
-}
-input[type=text]:focus,
-input[type=date]:focus{
-    -webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
-    -moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
-    box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
-    border: 2px solid #b180ce;
-    background-color: #cdb4db;
-    color:#9944c9
-}
 input[type=submit]:focus{
 -webkit-box-shadow: 0px 0px 10px 3px #be95c4;
     -moz-box-shadow: 0px 0px 10px 3px #be95c4;
     box-shadow: 0px 0px 10px 3px #be95c4;
 }
-input[type=submit]:hover,
-input[type=text]:hover,
-input[type=date]:hover
+input[type=submit]:hover
 {
     background-color: #cdb4db;
     border: 2px solid #b180ce;
@@ -126,21 +90,9 @@ footer{
     text-align: center;
     padding: 15px;
 }
-.payment,
-.category,
-.comment,
-.date,
-.amount{
+.category{
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Darker Grotesque', sans-serif;
-}
-.form-control{
-    font-size: 18px;
-}
-span{
-    font-size: 20px;
-    margin-left: 5px;
     font-family: 'Darker Grotesque', sans-serif;
 }
 select{
@@ -169,8 +121,81 @@ select:focus{
     background-color: #cdb4db;
     color:#9944c9
 }
-
-   
+#incomes{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    margin-left: 260px;
+    margin-right: 60px;
+    margin-top: 50px;
+    -webkit-box-shadow: 3px 3px 30px 5px #be95c4;
+    -moz-box-shadow: 3px 3px 30px 5px #be95c4;
+    box-shadow: 3px 3px 30px 5px #be95c4;
+}
+section{
+    width: 600px;
+    height: 1400px;
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    -webkit-box-shadow: 1px 1px 10px 1px #be95c4;
+    -moz-box-shadow: 1px 1px 10px 1px #be95c4;
+    box-shadow: 1px 1px 10px 1px #be95c4;
+    width: 500px; 
+    padding: 30px;
+    margin-left: 50px;
+}
+td{
+    padding: 7px;
+}
+#column{
+    height: 50px;
+    padding: 10px;
+    background-color: #b8a0d8;
+}
+#in,
+#ex{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+#expenses{
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    margin-top: 50px;
+    -webkit-box-shadow: 3px 3px 30px 5px #be95c4;
+    -moz-box-shadow: 3px 3px 30px 5px #be95c4;
+    box-shadow: 3px 3px 30px 5px #be95c4;
+}
+#total{
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #b8a0d8;
+}
+.piechart1,
+.piechart2{
+    margin-top: 70px;
+    margin-left: 75px;
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #ac6cd0 100deg, 
+        #bca4ca 0 235deg, 
+        #e3dae9 0
+        );
+}
+td{
+    text-align: center;
+} 
 
   
 
