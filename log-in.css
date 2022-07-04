@@ -57,9 +57,10 @@ input[type=password]{
     color: white;
     border: 2px solid #be95c4;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     outline: none;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 input[type=text]:focus,
 input[type=password]:focus{
@@ -73,15 +74,17 @@ input[type=password]:focus{
 input[type=submit]{
     width: 140px;
     background-color: #9f86c0;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    padding: 15px 10px;
-    margin-top: 10px;
+    padding-top: 5px;
+    padding: 10px;
+    margin-top: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     letter-spacing: 1px;
     outline: none;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 input[type=submit]:focus{
 -webkit-box-shadow: 0px 0px 10px 3px #be95c4;
