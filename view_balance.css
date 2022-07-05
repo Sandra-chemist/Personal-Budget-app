@@ -139,7 +139,7 @@ section{
     height: 1400px;
     background-color: white;
 }
-table {
+table{
     border-collapse: collapse;
     border: 2px solid rgb(200, 200, 200);
     -webkit-box-shadow: 1px 1px 10px 1px #be95c4;
@@ -152,7 +152,7 @@ table {
 td{
     padding: 7px;
 }
-#column{
+.column{
     height: 50px;
     padding: 10px;
     background-color: #b8a0d8;
@@ -173,7 +173,7 @@ td{
     -moz-box-shadow: 3px 3px 30px 5px #be95c4;
     box-shadow: 3px 3px 30px 5px #be95c4;
 }
-#total{
+.total{
     font-weight: bold;
     font-size: 25px;
     background-color: #b8a0d8;
