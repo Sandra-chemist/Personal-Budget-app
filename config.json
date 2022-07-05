@@ -13,27 +13,9 @@
       "src": "fontawesome"
     },
     {
-      "uid": "b6ef4443ecc502136135437837d9724b",
-      "css": "mail",
-      "code": 59392,
-      "src": "elusive"
-    },
-    {
-      "uid": "6ad86a953a5a76086c5568366863bbca",
-      "css": "torso",
-      "code": 59393,
-      "src": "elusive"
-    },
-    {
-      "uid": "0e26e70b4aa537cc206f41b21dcf2fcc",
-      "css": "lock-1",
-      "code": 59394,
-      "src": "elusive"
-    },
-    {
-      "uid": "e99461abfef3923546da8d745372c995",
-      "css": "cog",
-      "code": 59395,
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
       "src": "fontawesome"
     },
     {
@@ -43,10 +25,22 @@
       "src": "fontawesome"
     },
     {
-      "uid": "0d20938846444af8deb1920dc85a29fb",
-      "css": "logout",
-      "code": 59397,
+      "uid": "e99461abfef3923546da8d745372c995",
+      "css": "cog",
+      "code": 59395,
       "src": "fontawesome"
+    },
+    {
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user-2",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "212ab54aac31030950fec3e2448ebee9",
+      "css": "money",
+      "code": 59398,
+      "src": "modernpics"
     },
     {
       "uid": "554ee96588a6c9ee632624cd051fe6fc",
@@ -55,10 +49,10 @@
       "src": "fontawesome"
     },
     {
-      "uid": "212ab54aac31030950fec3e2448ebee9",
-      "css": "money",
-      "code": 59398,
-      "src": "modernpics"
+      "uid": "c1f1975c885aa9f3dad7810c53b82074",
+      "css": "lock",
+      "code": 59392,
+      "src": "fontawesome"
     }
   ]
 }
