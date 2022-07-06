@@ -65,6 +65,12 @@
       "css": "logout",
       "code": 59397,
       "src": "fontawesome"
+    },
+    {
+      "uid": "937f4db8b6ff3348a1d9fcd5e12fd2fe",
+      "css": "mail",
+      "code": 59394,
+      "src": "iconic"
     }
   ]
 }
