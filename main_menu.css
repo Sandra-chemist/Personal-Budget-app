@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     font-family: 'Source Serif Pro', serif;
 }
 h1.logo{
@@ -8,9 +7,18 @@ h1.logo{
     text-align: center;
     letter-spacing: 3px;
     margin-top: 80px;
-    margin-bottom: -20px;
+    margin-bottom: 5px;
     color: indigo;
     font-family: 'Libre Bodoni', serif;
+}
+h2.logo{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: indigo;
 }
 h4{
     font-size: 20px;
@@ -28,30 +36,16 @@ article{
   background-image: url("img/whitediamond.png");
   padding: 5px;
 }
-h2.logo{
-    font-size: 40px;
-    font-weight: 500;
+.row{
+    width: 400px;
     text-align: center;
-    letter-spacing: 3px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: indigo;
-}
-h3{
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 50px;
-    color: indigo;
+    margin-left: auto;
+    margin-right: auto;
 }
 form{
     background-color: white;
-    text-align: center;
-    width: 400px;
-    height: 400px;
+    height: 420px;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
     -webkit-box-shadow: 3px 3px 30px 5px #be95c4;
     -moz-box-shadow: 3px 3px 30px 5px #be95c4;
     box-shadow: 3px 3px 30px 5px #be95c4;
