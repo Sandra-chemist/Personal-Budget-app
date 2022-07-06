@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     font-family: 'Source Serif Pro', serif;
 }
 h1.logo{
@@ -8,25 +7,9 @@ h1.logo{
     text-align: center;
     letter-spacing: 3px;
     margin-top: 80px;
-    margin-bottom: -20px;
+    margin-bottom: 5px;
     color: indigo;
     font-family: 'Libre Bodoni', serif;
-}
-h4{
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    font-family: 'Libre Bodoni', serif;
-    color: indigo;
-}
-article{
-  height: 600px;
-  border-width: 3px;
-  border-color: #b180ce;
-  border-style: solid;
-  /* Background pattern from subtlepatterns.com */
-  background-image: url("img/whitediamond.png");
-  padding: 5px;
 }
 h2.logo{
     font-size: 40px;
@@ -37,15 +20,38 @@ h2.logo{
     margin-bottom: 40px;
     color: indigo;
 }
-form{
-    background-color: white;
+h4{
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    color: indigo;
+}
+h5{
+    font-size: 15px;
+    color: #5e548e;
+    padding: 25px;
+}
+article{
+  height: 600px;
+  border-width: 3px;
+  border-color: #b180ce;
+  border-style: solid;
+  /* Background pattern from subtlepatterns.com */
+  background-image: url("img/whitediamond.png");
+  padding: 5px;
+}
+.row{
     width: 400px;
-    height: 300px;
-    padding: 20px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 50px;
+}
+form{
+    background-color: white;
+    height: 350px;
+    padding: 20px;
     -webkit-box-shadow: 3px 3px 30px 5px #be95c4;
     -moz-box-shadow: 3px 3px 30px 5px #be95c4;
     box-shadow: 3px 3px 30px 5px #be95c4;
@@ -116,10 +122,6 @@ footer{
     font-size: 20px;
     text-align: center;
     padding: 15px;
-}
-h5{
-    font-size: 15px;
-    color: #5e548e;
 }
 .icon-mail-alt{
     font-size: 20px;
